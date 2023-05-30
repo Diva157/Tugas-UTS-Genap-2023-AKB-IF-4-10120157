@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">10120157_Memoir</string>
+
+    //Headings
+    <string name="heading_one">Who Create This App?</string>
+    <string name="heading_two">What This App About?</string>
+    <string name="heading_three">What a menu on this application?</string>
+    <string name="heading_fourth">What Is This App For?</string>
+
+    //Description
+    <string name="desc_one">10120157 - Diva Alvita Donny Syahputri - IF4</string>
+    <string name="desc_two">Memoir is an intimate diary application. That is where users can write important stuff and not forget it.</string>
+    <string name="desc_three">Profile, Catatan Harian, About</string>
+    <string name="desc_fourth">Tugas UTS Genap 2023 AKB IF-4 10120157</string>
+    <string name="title_activity_findme">Map</string>
+</resources>

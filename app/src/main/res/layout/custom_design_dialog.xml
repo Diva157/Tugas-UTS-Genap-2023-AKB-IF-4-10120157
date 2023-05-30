@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="'MEMOIR' merupakan sebuah project aplikasi yang memiliki fungsi untuk membuat, menyimpan, dan menampilkan catatan harian."
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/dialog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Aplikasi ini dibuat oleh:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dialog3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog2"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="10120157 - Diva Alvita Donny Syahputri - IF4"
+        android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="OK"
+            android:layout_marginTop="0dp"
+            android:layout_alignEnd="@+id/dialog"
+            android:layout_alignRight="@+id/dialog"
+            android:layout_below="@+id/dialog3"/>
+
+</RelativeLayout>
